@@ -4,10 +4,9 @@ body {
 }
 
 .container {
-  margin: 30vh 30vw;
+  margin: 20vh auto;
 
-  width: 500px;
-  height: 200px;
+  width: 400px;
 
   background: #ffff;
 
@@ -15,7 +14,6 @@ body {
 
   box-sizing: border-box;
 
-  border: 1px solid #ededed;
   border-radius: 16px;
 
   display: flex;
@@ -27,15 +25,15 @@ body {
 
 .last {
   width: 320px;
-  height: 399px;
+  height: 100%;
 
   position: relative;
 }
 
 .info-container {
-  position: fixed;
+  position: absolute;
 
-  margin-top: 7px;
+  margin-top: 6px;
   z-index: 1;
 
   background-color: #f7f7f7;
@@ -83,8 +81,6 @@ body {
 .DayPicker {
   padding-top: 100px;
   margin-top: -60px;
-
-  background-color: transparent;
 }
 
 .CalendarDay__default {
@@ -129,7 +125,12 @@ body {
 
 .DateRangePicker_picker {
   border-radius: 16px;
-  background: transparent;
+  background: linear-gradient(
+    0deg,
+    #f7f7f7 0%,
+    #f7f7f7 50%,
+    rgba(247, 247, 247, 0) 100%
+  );
 }
 
 .DateInput_fang > path {
