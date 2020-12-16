@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import moment from "moment";
+// import moment from "moment";
 
 import "react-dates/initialize";
 import { DateRangePicker } from "react-dates";
@@ -13,28 +13,28 @@ import "./test.css";
 class App extends Component {
   constructor(props) {
     super();
-    const test = {
-      months: "Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro".split(
-        "_"
-      ),
-      monthsShort: "janv._févr._mars_avr._mai_juin_juil._août_sept._oct._nov._déc.".split(
-        "_"
-      ),
-      monthsParseExact: true,
-      weekdays: "dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi".split(
-        "_"
-      ),
-      weekdaysShort: "dim._lun._mar._mer._jeu._ven._sam.".split("_"),
-      weekdaysMin: "D_S_T_Q_Q_S_S".split("_"),
-      longDateFormat: {
-        LT: "HH:mm",
-        LTS: "HH:mm:ss",
-        L: "DD/MM/YYYY",
-        LL: "D MMMM YYYY",
-        LLL: "D MMMM YYYY HH:mm",
-        LLLL: "dddd D MMMM YYYY HH:mm",
-      },
-    };
+    // const test = {
+    //   months: "Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro".split(
+    //     "_"
+    //   ),
+    //   monthsShort: "janv._févr._mars_avr._mai_juin_juil._août_sept._oct._nov._déc.".split(
+    //     "_"
+    //   ),
+    //   monthsParseExact: true,
+    //   weekdays: "dimanche_lundi_mardi_mercredi_jeudi_vendredi_samedi".split(
+    //     "_"
+    //   ),
+    //   weekdaysShort: "dim._lun._mar._mer._jeu._ven._sam.".split("_"),
+    //   weekdaysMin: "D_S_T_Q_Q_S_S".split("_"),
+    //   longDateFormat: {
+    //     LT: "HH:mm",
+    //     LTS: "HH:mm:ss",
+    //     L: "DD/MM/YYYY",
+    //     LL: "D MMMM YYYY",
+    //     LLL: "D MMMM YYYY HH:mm",
+    //     LLLL: "dddd D MMMM YYYY HH:mm",
+    //   },
+    // };
     // moment.locale("br", test);
     this.state = {
       startDate: null,
