@@ -79,6 +79,26 @@ body {
   align-items: center;
 }
 
+.button {
+  position: absolute;
+  top: 29px;
+
+  height: 12px;
+  width: 12px;
+}
+
+.next {
+  right: 22px;
+
+  transform: rotate(90deg);
+}
+
+.prev {
+  left: 22px;
+
+  transform: rotate(-90deg);
+}
+
 .DayPicker {
   padding-top: 100px;
   margin-top: -47px;
@@ -154,26 +174,6 @@ body {
 
 .DayPicker_weekHeader_li {
   width: 38px !important;
-}
-
-.button {
-  position: absolute;
-  top: 29px;
-
-  height: 12px;
-  width: 12px;
-}
-
-.next {
-  right: 22px;
-
-  transform: rotate(90deg);
-}
-
-.prev {
-  left: 22px;
-
-  transform: rotate(-90deg);
 }
 
 .DateRangePicker_picker {
