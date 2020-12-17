@@ -94,7 +94,7 @@ class App extends Component {
             reopenPickerOnClearDates
             navPrev={this.renderIconPrev()}
             navNext={this.renderIconNext()}
-            keepOpenOnDateSelect
+            // keepOpenOnDateSelect
             small
           />
         </div>
